@@ -1,5 +1,8 @@
-package fr.formation.CinemaProject.models;
+package fr.formation.CinemaProject.entities;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
 public class Room {
 	private String id;
 	private int number;
